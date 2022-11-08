@@ -1,0 +1,19 @@
+
+const IconMinus:React.FC = () => {
+  return (
+    <svg
+      width='9'
+      height='3'
+      viewBox='0 0 9 3'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <path
+        d='M8.75876 0.19429H0.256836V2.32094H8.75876V0.19429Z'
+        fill='#33A0FF'
+      />
+    </svg>
+  );
+}
+
+export default IconMinus
