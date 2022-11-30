@@ -1,6 +1,5 @@
 import IconArrowDown from "./icons/IconArrowDown";
 import IconCart from "./icons/IconCart";
-import IconLogo from "./icons/IconLogo";
 import IconProfile from "./icons/IconProfile";
 import IconSearch from "./icons/IconSearch";
 import Logo from "./Logo";
@@ -48,9 +47,9 @@ const NavBare: React.FC = () => {
       <div className='pl-[104px] pr-[134px]  h-24 flex items-center justify-between'>
         <Logo className={"w-[25%]"} />
         <ul className=' font-medium text-2xl flex items-center grow justify-between'>
-          <li className=' text-primary'>HOME </li>
+          <li className=' text-primary'><Link href='/'> HOME</Link> </li>
           <li>
-            <Link href='/hotdeal'> SNEAKERS</Link>
+            <Link href='/category'> SNEAKERS</Link>
           </li>
           <li>BAGS</li>
 
